@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/mainBackground"
+    tools:context=".AccountPages.HomePage">
+
+
+    <Button
+        android:id="@+id/logout"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="0dp"
+        android:background="@color/cartButtonColor"
+        android:textColor="@color/cartButtonText"
+        android:text="@string/logout"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/cart"
+        android:layout_width="80dp"
+        android:layout_height="40dp"
+        android:layout_gravity="end|bottom"
+        android:layout_margin="0dp"
+        android:layout_marginEnd="0dp"
+        android:background="@color/cartButtonColor"
+        android:textColor="@color/cartButtonText"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/menuView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/menus"
+        android:textColor="@color/menuText"
+        android:textSize="32sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.142" />
+
+    <ImageButton
+        android:id="@+id/grilleInfo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toBottomOf="@id/grilleImage"
+        app:layout_constraintEnd_toStartOf="@id/grilleImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/grilleImage" />
+
+    <ImageView
+        android:id="@+id/grilleImage"
+        android:layout_width="192dp"
+        android:layout_height="42dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/grille"
+        app:layout_constraintBottom_toTopOf="@+id/grilleMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/menuView" />
+
+    <Button
+        android:id="@+id/grilleMenu"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|bottom"
+        android:text="@string/grilleButton"
+        android:background="@color/menuButtonColor"
+        android:textColor="@color/menuButtonText"
+        app:layout_constraintBottom_toBottomOf="@id/grilleImage"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/italianImage"
+        />
+
+    <ImageButton
+        android:id="@+id/italianInfo"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:src="@drawable/icon"
+        app:layout_constraintBottom_toBottomOf="@id/italianImage"
+        app:layout_constraintEnd_toStartOf="@id/italianImage"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@id/italianImage"
+         />
+
+    <ImageView
+        android:id="@+id/italianImage"
+        android:layout_width="175dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginBottom="8dp"
+        android:src="@drawable/italian"
+        app:layout_constraintBottom_toTopOf="@+id/italianMenu"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/grilleMenu"
+         />
+
+    <Button
+        android:id="@+id/italianMenu"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_gravity="end|bottom"
+        android:text="@string/italianButton"
+        android:background="@color/menuButtonColor"
+        android:textColor="@color/menuButtonText"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/grilleMenu"
+       />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

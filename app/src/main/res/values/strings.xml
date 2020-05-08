@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">Lower ToGo</string>
+    <string name="menus">Menus</string>
+    <string name="cartButton">Cart</string>
+    <string name="grilleButton">Grille Works Menu</string>
+    <string name="italianButton">Italian Kitchen Menu</string>
+    <string name="Cart">Cart</string>
+    <string name="logout">Logout</string>
+    <string name="loginButtonText">Login Existing Account</string>
+    <string name="loginHomeText">Login</string>
+    <string name="createAccountText">Create</string>
+    <string name="createButtonText">Create New Account</string>
+    <string name="newEmail">New Email</string>
+    <string name="newPassword">New Password</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="Checkout">Checkout</string>
+    <string name="purchase">Select Option</string>
+
+    <string name="paypal">PayPal</string>
+    <string name="card">Credit/Debit Card</string>
+    <string name="store">At Store</string>
+
+    <string name="american">American</string>
+    <string name="swiss">Swiss</string>
+    <string name="pepper_jack">Pepper Jack</string>
+
+    <string name="lettuce">Lettuce</string>
+    <string name="carrots">Carrots</string>
+    <string name="onions">Onions</string>
+
+    <string name="bacon">Bacon</string>
+    <string name="ham">Ham</string>
+    <string name="patty">Extra Patty</string>
+
+
+
+</resources>

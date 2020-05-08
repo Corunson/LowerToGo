@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="whiteText">#FFFFFF</color>
+    <color name="blackText">#000000</color>
+    <color name="menuText">#efe3b1</color>
+    <color name="colorAccent">#D81B60</color>
+    <color name="mainBackground">#972337</color>
+    <color name="cartButtonColor">#079b51</color>
+    <color name="cartButtonText">#383838</color>
+    <color name="menuButtonColor">#efe3b1</color>
+    <color name="menuButtonText">#C0700B</color>
+    <color name="editTextBackground">#A33346</color>
+
+</resources>

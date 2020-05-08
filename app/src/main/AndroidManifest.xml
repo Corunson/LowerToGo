@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.grv5783.lowertogo">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".cart.CardPage" />
+        <activity android:name=".cart.OrderPage" />
+        <activity android:name=".cart.ProgressPage" />
+        <activity android:name=".cart.PurchasePage" />
+        <activity android:name=".AccountPages.AccountPage">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+                <data android:scheme="com.example.grv5783.lowertogo.braintree" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".AccountPages.CreateAccountPage" />
+        <activity android:name=".AccountPages.LoginPage" />
+        <activity android:name=".cart.Cart" />
+        <activity android:name=".italianKitchen.ItalianKitchen" />
+        <activity android:name=".grilleWorks.GrilleWorks" />
+        <activity android:name=".AccountPages.HomePage" />
+    </application>
+
+</manifest>

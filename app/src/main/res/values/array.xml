@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="purchaseOptionsList">
+        <item>@string/card</item>
+        <item>@string/store</item>
+    </string-array>
+
+    <string-array name="itemOptions">
+        <item>@string/american</item>
+        <item>@string/swiss</item>
+        <item>@string/pepper_jack</item>
+        <item>@string/lettuce</item>
+        <item>@string/carrots</item>
+        <item>@string/onions</item>
+        <item>@string/bacon</item>
+        <item>@string/ham</item>
+        <item>@string/patty</item>
+    </string-array>
+
+    <string-array name="cheems">
+        <item>@string/american</item>
+        <item>@string/swiss</item>
+        <item>@string/pepper_jack</item>
+    </string-array>
+
+    <string-array name="veg">
+        <item>@string/lettuce</item>
+        <item>@string/carrots</item>
+        <item>@string/onions</item>
+    </string-array>
+
+
+    <string-array name="meat">
+        <item>@string/bacon</item>
+        <item>@string/ham</item>
+        <item>@string/patty</item>
+    </string-array>
+
+
+</resources>
